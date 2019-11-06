@@ -14,6 +14,9 @@
 	
 	<script type="text/javascript">
     parchment.options.default_story = 'zork1.z3';
+		document.addEventListener("DOMNodeInserted", function(e) {
+  $('html, body').scrollTop($(document).height());
+}, false);
   </script>
 	
 </head>
